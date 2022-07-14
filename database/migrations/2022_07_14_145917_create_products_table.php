@@ -19,7 +19,7 @@ class CreateProductsTable extends Migration
             $table->string('title', 50);
             $table->text('description');
             $table->decimal('price', 9, 3);
-            $table->string('series', 30);
+            $table->string('series', 15);
             $table->date('sale_date');
             $table->string('type', 30);
             $table->timestamps();
