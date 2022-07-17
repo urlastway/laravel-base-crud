@@ -25,7 +25,7 @@
                     </td>
                     <td>{{$product->title}}</td>
                     <td>{{$product->type}}</td>
-                    <td></td>
+                    <td><a type="button" class="btn btn-primary" href={{route('products.show', $product->id)}}>See for more</a></td>
                 </tr>
             @endforeach
         </tbody>
