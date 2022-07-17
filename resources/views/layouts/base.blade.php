@@ -10,7 +10,7 @@
 <body>
     <div class="container">
         @yield('page-content')
-        @dump($products)
+        
     </div>
 </body>
 </html>
