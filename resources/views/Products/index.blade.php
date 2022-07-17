@@ -21,7 +21,7 @@
                 <tr>
                     <td>{{$product->id}}</td>
                     <td>
-                        <img src="{{$product->immage}}">
+                        <img src="{{$product->immage ? $product->immage : 'https://www.karr-italiana.it/wp-content/uploads/2016/11/img-placeholder.png'}}">
                     </td>
                     <td>{{$product->title}}</td>
                     <td>{{$product->type}}</td>
